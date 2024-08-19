@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    
+    <div class="container_cabecalho">
+        <nav class="menu">
+            <div class="imagem">
+                <img src="img/logo-alura.svg" alt="logo-alura">
+            </div>
+            <div class="menu_tipo">
+                <button class="btn btn-tt" onclick="mudaCor(this)">Tt</button>
+                <button class="btn btn-audio" onclick="mudaCor(this)"><img src="img/cabeca.svg"></button>
+            </div>
+            <div class="menu_lingua">
+                <button class="btn btn-pt" onclick="mudaCor(this)">PT</button>
+                <button class="btn btn-es" onclick="mudaCor(this)">ES</button>
+            </div>
+        </nav>
+    </div>
+    
+    
+    <div class="center">
+        <textarea class="caixa_texto" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+        <div class="cripto">    
+            <p class="textinho"><img src="img/warning.svg"> Apenas letras minúsculas e sem acento.</p>
+            <button class="btn_cripto" onclick="btnCripto()">Criptografar</button>
+            <button class="btn_descripto" onclick="btnDescripto()">Descriptografar</button>
+        </div>
+    </div>
+    
+    <div class="card">
+        <textarea class="caixa_texto_cripto"></textarea>
+        <h1 class="texto_msg">Nenhuma mensagem encontrada</h1>
+        <p class="card_mini_texto">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        <button class="btn_copiar" onclick="btnCopiar()">Copiar</button>
+        <div class="mensagem"></div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+
+</html> 

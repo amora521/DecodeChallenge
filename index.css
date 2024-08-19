@@ -1,0 +1,227 @@
+*{
+    font-family: "Arsenal SC";
+    font-size: large;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    margin: 2.5rem;
+    padding: 0;
+    background-color: rgb(240, 248, 255);
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.container_cabecalho{
+    width: 4rem;
+    border-radius: 2rem;
+    /* background-color: white; */
+}
+
+.imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 2vh;
+    }
+
+.menu_tipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 4.5rem;
+    height: 8rem;
+    padding: 0;
+    border-radius: 3rem;
+    background-color: white;
+    box-shadow: 0 0 25px  rgb(180, 191, 201);
+    margin-right: 0vw;
+    gap: 0.3rem;
+
+}
+
+.menu_lingua {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 4.5rem;
+    height: 8rem;
+    gap: 0.3rem;
+    border-radius: 3rem;
+    background-color: white;
+    box-shadow: 0 0 25px  rgb(180, 191, 201);
+    align-items: center;
+    padding: 0;
+    margin: 2vh;
+
+}
+
+.caixa_texto {
+    display: flex;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 10vh;
+    width: 50vw;
+    height: 50vh;
+    border: 0 none ;
+    resize: none;
+    color: #0a3871;
+    font-size: x-large;
+    border-color: #0a3871;
+    background-color: rgb(240, 248, 255);
+}
+
+.caixa_texto_cripto {
+    display: flex; 
+    width: 20vw; 
+    height: 38vh;
+    margin-top: 15vh;
+    border: 0 none ;
+    resize: none;
+    background-image: url(img/ilustracao-vetorial-de-uma-menina-em-uma-sala-com-um-conjunto-de-ferramentas_1057-73375.svg);
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+
+.btn.btn-tt {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: 0 none;
+    background-color: transparent;
+}
+
+.btn.btn-audio{
+    background-color: rgb(194, 194, 194);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: 0 none;
+    background-color: transparent;
+
+}
+
+.btn.btn-pt{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: 0 none;
+    background-color:transparent;
+}
+
+.btn.btn-es{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    background-color: transparent;
+    border: 0 none;
+}
+
+button{
+    color: #0a3871;
+    overflow-wrap:anywhere;
+    cursor: pointer;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    width: 400px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    height: 90vh;
+    border-radius: 2rem;
+    font-size: xx-large;
+}
+
+.card_mini_texto {
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.texto_msg{
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.center {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cripto{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.btn_cripto{
+    color: white;
+    background-color: #0a3871;
+    border-radius: 0.5rem;
+    width: 20vw;
+    height: 2.5rem;
+    margin: 10px;
+}
+
+.btn_cripto:hover{
+    background-color: #082d5b;
+}
+
+.btn_copiar{
+    color: white;
+    background-color: #0a3871;
+    border-radius: 0.5rem;
+    width: 20vw;
+    height: 2.5rem;
+    margin: 10px;
+}
+
+.btn_descripto{
+    background-color: rgb(240, 248, 255);
+    color: #0a3871;
+    border-radius: 0.5rem;
+    margin: 10px;
+    width: 20vw;
+    height: 2.5rem;
+}
+
+.btn:hover{
+    background-color: rgb(225, 232, 239);
+}
+
+.textinho{
+    margin-left: 15px;
+}
+
+.mensagem {
+    display: none;
+    color: #0a3871;
+    font-weight: bold;
+    transition: opacity 0.5s ease-in-out;
+    margin-top: 10px;
+}
+
+.mensagem.mostrar {
+    display: block;
+    opacity: 1;
+}
